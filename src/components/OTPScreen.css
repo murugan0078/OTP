@@ -1,0 +1,45 @@
+.otp-screen {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.otp-screen h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.otp-screen p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.otp-screen form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otp-screen input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.otp-screen button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.otp-screen button:hover {
+    background-color: darkblue;
+}

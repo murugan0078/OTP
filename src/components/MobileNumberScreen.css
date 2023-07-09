@@ -1,0 +1,48 @@
+.mobile-number-screen {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.enter-mobile-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.country-code-select {
+    padding: 5px;
+    font-size: 11px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.mobile-number-input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: darkblue;
+}
